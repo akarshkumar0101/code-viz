@@ -3,6 +3,9 @@ import NavBar from "./components/navbar";
 import ElGrapho from 'elgrapho';
 const graphData = require('./data.json');
 
+
+let use_d3 = true
+
 class App extends Component {
   state = {
     _data: [],
